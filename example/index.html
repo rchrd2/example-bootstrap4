@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hello, world!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../bootstrap-4/css/bootstrap.min.css">
+    <style>
+.row > div { background-color: lightgrey; border: 1px solid black; }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <h1>Hello, world!</h1>
+          <p><code>col</code> uses flexbox to evenly split the columns</p>
+        </div>
+        <div class="col"><i>intentionally left blank</i></div>
+        <div class="col"><i>intentionally left blank</i></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm">
+          <p><code>col-sm</code> makes it responsive on mobile.</p>
+        </div>
+        <div class="col-sm"><i>intentionally left blank</i></div>
+        <div class="col-sm"><i>intentionally left blank</i></div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-2">
+          <p><code>col-sm</code> uses flexbox to evenly split the columns</p>
+        </div>
+        <div class="col-sm"><i>intentionally left blank</i></div>
+      </div>
+
+      <div class="row">
+        <div class="col-4"><code>col-4</code><br>or you can use the existing grid of 12 columns</div>
+        <div class="col-8"><code>col-8</code></div>
+      </div>
+
+      <!-- vertical center -->
+      <div class="row align-items-center justify-content-center" style="border: 2px solid grey;; min-height: 200px;">
+        <div class="col-3 text-center">vertically<br>-<br>centered</div>
+      </div>
+    </div>
+
+    <!-- no gutters note: no parent .container-fluid -->
+    <div class="row no-gutters">
+      <div class="col-sm"><i>no gutters</i></div>
+      <div class="col-sm"><i>intentionally left blank</i></div>
+      <div class="col-sm"><i>intentionally left blank</i></div>
+      <div class="col-sm"><i>intentionally left blank</i></div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-9"><b>column wrapping happens automatically</b><br>.col-9</div>
+        <div class="col-4">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+        <div class="col-6">.col-6<br>Subsequent columns continue along the new line.</div>
+      </div>
+      <div class="row">
+        <div class="col-sm"><i>intentionally left blank</i></div>
+        <div class="col-sm">
+          <div>Nested grid right here</div>
+          <div class="row">
+            <div class="col-sm"><i>intentionally left blank</i></div>
+            <div class="col-sm">
+              <div>nested again!</div>
+              <div class="row">
+                <div class="col-sm"><i>intentionally left blank</i></div>
+                <div class="col-sm"><i>intentionally left blank</i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- media elements -->
+    <div class="container-fluid">
+      <h2>Media Elements</h2>
+      <div class="media">
+        <img class="mr-3" src="https://archive.org/services/img/ninechainstomoon00full" alt="Generic placeholder image">
+        <div class="media-body">
+          <h5 class="mt-0">Media heading</h5>
+          Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
+      </div>
+
+      <h2>List of media elements</h2>
+      <ul class="list-unstyled">
+        <li class="media">
+          <img class="mr-3" src="https://archive.org/services/img/ninechainstomoon00full" alt="Generic placeholder image">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </li>
+        <li class="media my-4">
+          <img class="mr-3" src="https://archive.org/services/img/ninechainstomoon00full" alt="Generic placeholder image">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </li>
+        <li class="media">
+          <img class="mr-3" src="https://archive.org/services/img/ninechainstomoon00full" alt="Generic placeholder image">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">List-based media object</h5>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+          </div>
+        </li>
+      </ul>
+
+
+      <h1>Images</h1>
+      <div class="row">
+        <div class="col">
+          <img src="https://archive.org/services/img/ninechainstomoon00full" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="https://archive.org/services/img/ninechainstomoon00full" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="https://archive.org/services/img/ninechainstomoon00full" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="https://archive.org/services/img/ninechainstomoon00full" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="https://archive.org/services/img/ninechainstomoon00full" alt="..." class="img-thumbnail mx-auto d-block">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <img src="https://ia601202.us.archive.org/28/items/78_you-are-my-sunshine_paul-ric...sticker-rice-brothers-gang_gbia0000125a/78_you-are-my-sunshine_paul-ric...sticker-rice-brothers-gang_gbia0000125a_itemimage.jpg?cnt=0" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col">
+          <img src="https://ia601202.us.archive.org/28/items/78_you-are-my-sunshine_paul-ric...sticker-rice-brothers-gang_gbia0000125a/78_you-are-my-sunshine_paul-ric...sticker-rice-brothers-gang_gbia0000125a_itemimage.jpg?cnt=0" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-sm-3">
+          <h3>Image thumbnail</h3>
+          <img src="https://archive.org/download/78_wood-planer-3-cuts__gbia0000357a/78_wood-planer-3-cuts__gbia0000357a_itemimage.jpg" class="img-thumbnail mx-auto d-block" />
+        </div>
+      </div>
+
+      <table class="table table-bordered mt-4">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Username</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@TwBootstrap</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="d-flex align-items-center justify-content-center">
+        <figure class="figure">
+          <img src="https://archive.org/services/img/lettersofvincent00gogh" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+          <figcaption class="figure-caption">A caption for the above image.</figcaption>
+        </figure>
+      </div>
+
+    </div> <!-- end container-fluid -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- popper is a tooltip library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="../bootstrap-4/js/bootstrap.min.js"></script>
+  </body>
+</html>
